@@ -1,9 +1,27 @@
 body{
+    margin: 0px;
     font-family: poppins, sans-serif;
+}
+section{
+   
+    height: 500px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 h1{
     font-size: 50px;
 }
 .highlight{
     color: orange;
+}
+.half_width{
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+    float: left;
+}
+.half_width img{
+    width: 100%;
 }
