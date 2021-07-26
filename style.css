@@ -3,7 +3,7 @@ body{
     font-family: poppins, sans-serif;
 }
 section{
-   
+    margin-bottom: 200px;
     height: 500px;
 }
 .top-banner{
@@ -13,15 +13,67 @@ section{
 h1{
     font-size: 50px;
 }
-.highlight{
+h4{
+    font-size: 20px;
+}
+.orange-highlight{
     color: orange;
 }
 .half_width{
     width: 40%;
     margin-left: 5%;
-    padding: 2%;
+    padding-left: 2%;
     float: left;
 }
 .half_width img{
     width: 100%;
 }
+.link_button{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.Dream-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right; 
+}
+.Experience-portion{
+    height: 80%;
+    box-shadow: 20px 10px 40px gray;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.Experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+#baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
+
+
